@@ -177,7 +177,7 @@ function Contacts() {
             <div className='contacts--container'>
                 <h1 style={{ color: theme.primary }}>Contact</h1>
                 <div className='contacts-body'>
-                    <div className='contacts-form'>
+                    {/* <div className='contacts-form'>
                         <form name="submit-to-google-sheet" onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
@@ -287,7 +287,7 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div>
+                    </div> */}
 
                     <div className='contacts-details'>
                         <a

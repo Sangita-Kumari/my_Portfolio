@@ -19,7 +19,7 @@ export const projectsData = [
         projectDesc: 'This project is a clone of E-Commerce website using REACT UI,CSS,JavaScript,ES6.',
         tags: ['React', 'Material UI','CSS','JSX','ES6',],
         code: 'https://github.com/Sangita-Kumari/MyntraClone',
-        demo: 'https://myntra-clone-react-xi.vercel.app/',
+        demo: 'https://myntra-react-clone.netlify.app/',
         image: myntra
     },
     {

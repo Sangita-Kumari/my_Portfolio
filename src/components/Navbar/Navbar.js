@@ -144,10 +144,10 @@ function Navbar() {
       <div className="navbar--container">
         <h1 style={{ color: theme.secondary }}>{shortname(headerData.name)}</h1>
 
-        <div>
-          {toggle ? (
+        {/* <div> */}
+          {/* {toggle ? (
             <WbSunnyIcon
-              // color="primary"
+              color="primary"
               className="theme light"
               onClick={() => {
                 handleToggle();
@@ -173,27 +173,27 @@ function Navbar() {
 
             <NightsStayIcon
               className="theme dark"
-              //   color="primary"
+                // color="primary"
 
               onClick={() => {
                 handleToggle();
               }}
             />
-          )}
+          )} */}
           {/* <NightsStayIcon color="primary" /> */}
-          <IoMenuSharp
+          {/* <IoMenuSharp
             className={classes.navMenu}
             onClick={handleDrawerOpen}
             aria-label="Menu"
-          />
-        </div>
-
+          /> */}
+        {/* </div> */}
+       
         {/* <IoMenuSharp
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}
                     aria-label='Menu'
                 /> */}
-      </div>
+     </div>
       <Drawer
         variant="temporary"
         onClose={(event, reason) => {
